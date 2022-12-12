@@ -1,4 +1,4 @@
-# Test_task_kontur
+# Fake News Detection
 Test task for the detection of fake news in the Kontur (https://kontur.ru/) company, 12th place out of 170
 # Test task
 
