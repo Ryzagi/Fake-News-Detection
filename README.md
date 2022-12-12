@@ -1,5 +1,5 @@
 # Test_task_kontur
-Test task for the detection of fake news in the Contour company, 12th place out of 170
+Test task for the detection of fake news in the Kontur (https://kontur.ru/) company, 12th place out of 170
 # Test task
 
 To complete the test task, it is required to develop a model that will be able to distinguish between the headlines of real and fictional news.
