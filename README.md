@@ -1,23 +1,22 @@
 # Test_task_kontur
-Тестовое задание на детекцию фейковых новостей в компанию Контур, 12 место из 170
-# Тестовое задание
+Test task for the detection of fake news in the Contour company, 12th place out of 170
+# Test task
 
-Для выполнения тестового задания требуется разработать модель, которая будет способна различать заголовки реальных и выдуманных новостей.
-Для обучения модели используйте данные из файла `train.tsv`. В файле находится таблица, состоящая из двух колонок. 
-В колонке title записан заголовок новости. В колонке is_fake содержатся метки: 0 – новость реальная; 1 – новость выдуманная.
-Для демонстрации работы модели используйте данные тестового набора из файла `test.tsv`. В нем также есть колонка title, данные которой являются входными для вашей модели.
-Вам нужно скопировать файл `test.tsv`, переименовать его в `predictions.tsv` и заполнить колонку is_fake значениями предсказаний вашей модели, аналогично `train.tsv`. 
-Изначально колонка заполнена значением 0.
+To complete the test task, it is required to develop a model that will be able to distinguish between the headlines of real and fictional news.
+To train the model, use the data from the `train.tsv` file. The file contains a table consisting of two columns.
+The title column contains the headline of the news. The is_fake column contains labels: 0 – real news; 1 – fictional news.
+To demonstrate the operation of the model, use the data of the test set from the `test.tsv` file. It also has a title column, the data of which is input for your model.
+You need to copy the file `test.tsv`, rename it to `predictions.tsv` and fill the is_fake column with the values of your model's predictions, similar to `train.tsv'.
+Initially, the column is filled with the value 0.
 
-# Критерии оценки
-1. Для оценки финального решения будет использоваться метрика F1 score.
-2. Чистота кода, оформление и понятность исследования.
+# Evaluation criteria
+1. The F1 score metric will be used to evaluate the final decision.
+2. The purity of the code, design and clarity of the study.
 
-# Требования к решению
-В качестве решения мы ожидаем zip-архив со всеми *.py и *.ipynb файлами в папке solution и файлом `predictions.tsv` в корне. Формат имени zip-архива: LastName_FirstName.zip (пример Ivanov_Ivan.zip).
-Файл `predictions.tsv` должен включать в себя колонку title, содержащую те же данные, что и исходный файл `test.tsv`, а также колонку is_fake, содержащую значения 0 или 1.
-Разметка тестового набора данных и включение его в обучение/валидацию запрещены.
+# Solution Requirements
+As a solution, we expect a zip archive with all *.py and *.ipynb files in the solution folder and the `predictions.tsv` file in the root. Format of the zip archive name: LastName_FirstName.zip (example Ivanov_Ivan.zip ).
+The `predictions.tsv` file must include a title column containing the same data as the original `test.tsv` file, as well as an is_fake column containing the values 0 or 1.
+Marking up a test dataset and including it in training/validation is prohibited.
 
-В папке solution должно быть отражено исследование и весь код, необходимый для воспроизведения исследования.
+The solution folder should contain the study and all the code needed to reproduce the study.
 
-Успехов!
